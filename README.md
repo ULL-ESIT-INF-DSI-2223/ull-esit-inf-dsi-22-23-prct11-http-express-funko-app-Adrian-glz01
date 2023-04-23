@@ -511,7 +511,7 @@ Primero se declara una string vacía que almacenará la salida del comando y otr
 
 Mediante eventos on 'data' se va almacenando la salida del comando y los errores que se puedan producir. Despuesse comprueba cuales de las dos variables no es vacía y se ejecuta la función send de express para devolver un json con la salida del comando o los errores que se hayan producido.
 
-## __Dificultades/Reflexión
+## __Dificultades/Reflexión__
 
 Al igual que en la anterior práctica, lo peor que he llevado en esta es el tiempo, no puedo realizar las cosas de la manera en la que me gusta debido a que no tengo tiempo suficiente para dedicarle y he tenido que salir del paso como en la pr 10 haciendo uso de api sincrona de node.js.
 

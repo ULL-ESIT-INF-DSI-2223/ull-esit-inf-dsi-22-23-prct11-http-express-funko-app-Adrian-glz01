@@ -1,9 +1,6 @@
 import * as express from 'express';
 import {spawn} from 'child_process';
 
-/**
- * 
- */
 const app = express();
 
 app.get('/execmd', (req, res) => {

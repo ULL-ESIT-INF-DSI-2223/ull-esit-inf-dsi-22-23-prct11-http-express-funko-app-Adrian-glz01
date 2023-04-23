@@ -5,7 +5,8 @@
   "main": "main.js",
   "type": "commonjs",
   "scripts": {
-    "pe102": "tsc-watch --onSuccess \"node dist/EjercicioPE102/server.ts\"",
+    "pe102": "tsc-watch --onSuccess \"node dist/EjercicioPE102/server.js\"",
+    "funko": "tsc-watch --onSuccess \"node dist/Funko/server.js\"",
     "start": "tsc-watch --onSuccess \"node dist/testing.js\"",
     "doc": "typedoc",
     "coverage": "nyc npm test && nyc report --reporter=lcov",

@@ -7,7 +7,9 @@
   "scripts": {
     "pe102": "tsc-watch --onSuccess \"node dist/EjercicioPE102/server.js\"",
     "funko": "tsc-watch --onSuccess \"node dist/Funko/server.js\"",
+    "funko_bbdd": "tsc-watch --onSuccess \"node dist/PR12_PE102/Funko/server.js\"",
     "start": "tsc-watch --onSuccess \"node dist/testing.js\"",
+    "bbdd": "tsc-watch --onSuccess \"node dist/PR12_PE102/BDconnect.js\"",
     "doc": "typedoc",
     "coverage": "nyc npm test && nyc report --reporter=lcov",
     "test": "mocha"
@@ -54,6 +56,7 @@
     "express": "^4.18.2",
     "inquirer": "^7.3.3",
     "lowdb": "^1.0.0",
+    "mongodb": "^5.3.0",
     "request": "^2.88.2",
     "yargs": "^17.7.1"
   }
